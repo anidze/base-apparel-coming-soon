@@ -30,19 +30,32 @@
           </div>
           <p class="welcoming">
             We're coming soon Hello fellow shoppers! We're currently building
-            our new fashion store. Add your email below to stay up-to-date
-            with announcements and our launch deals. 
+            our new fashion store. Add your email below to stay up-to-date with
+            announcements and our launch deals.
           </p>
-                  <div class="inputContainer">
-          <form action="#" name="validate">
-  <input type="text" id="fname" name="fname" value="Email Address" class="emailInput">
-            <img src="images/icon-error.svg" class="errorIcon" alt="">
-  <button type="submit" value="Submit" class="submitButton"
-><img src="images/icon-arrow.svg" alt="">
-</button>
-</form> 
-                    <span> Please provide valid email </span>
-    </div>
+          <div class="inputContainer">
+            <form action="#" name="validate">
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                value="Email Address"
+                class="emailInput"
+              />
+              <img src="images/icon-error.svg" class="errorIcon" alt="" />
+              <button
+                type="submit"
+                value="Submit"
+                class="submitButton"
+                onclick="validateEmail()"
+              >
+                <img src="images/icon-arrow.svg" alt="" 
+                id="errorImg"/>
+              </button>
+            </form>
+            <span class="hidespan" id="errorspan"> Please provide valid email </span>
+            <span class="hidespan" id="respond"> Thank You For The Information </span>
+          </div>
         </div>
         <div class="secondSection"></div>
       </div>
@@ -55,7 +68,6 @@
         >. Coded by <a href="#">Ani dze</a>.
       </p>
     </footer>
+    <script src="project.js"></script>
   </body>
 </html>
-
-

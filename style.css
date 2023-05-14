@@ -94,7 +94,7 @@ input[type="text"] {
   opacity: 1;
 }
 
-.inputContainer span {
+.hidespan {
   display: none;
   position: absolute;
   left: 10%;
@@ -116,7 +116,7 @@ input[type="text"] {
   border: 1px solid var(--SoftRed);
   border-radius: 55px;
   background-color: var(--SoftRed);
-  cursor: pointer;
+  /* cursor: pointer; */
   /* transform: translate(-55px, -2px); */
   position: absolute;
   right: 58%;
